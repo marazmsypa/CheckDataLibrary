@@ -113,7 +113,7 @@ namespace ValidStringData
             //Arrange
             string entryString = "1234556557C404453";
             int entryYear = 2000;
-            //Act
+            //Act1
 
             //Assert          
             Assert.IsFalse(testedObject.CheckVin(entryString, entryYear));
